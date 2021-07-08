@@ -36,4 +36,12 @@ if ans == iscorrect:
     print(1)
 else:
     print(0)
-
+# c = len(ans)
+# check =1
+# for i in range(c):
+#   if ans[i] != iscorrect[i]:
+#       check = 0
+#       break
+#
+#if check == 1:print(1)
+#else:print(0)
