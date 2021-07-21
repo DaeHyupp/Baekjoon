@@ -31,3 +31,22 @@ for i in range(N):
     ans += int(temp)
 print(ans)
 
+# n = int(input())
+# dic = {}
+# for i in range(n):
+#     k = list(reversed(input()))
+#     t = 1
+#     for c in k:
+#         if c in dic:
+#             dic[c] += t
+#         else:
+#             dic[c] = t
+#         t *= 10
+# li = list(dic.items())
+# li.sort(key=lambda x:x[1], reverse=True)
+# s = 0
+# t = 9
+# for i in li:
+#     s += t * i[1]
+#     t -= 1
+# print(s)
