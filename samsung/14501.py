@@ -13,3 +13,11 @@ for i in range(N-1,-1,-1):
 
 print(dp[0])
 
+#for i in range(N):
+#
+#   a = max(max(dp[:i+2])+schedule[i][1],dp[i+schedule[i][0]+1])
+#   for t in range(i+schedule[i][0]+1,N+2):
+#        dp[t] = max(a,dp[t])
+#
+#print(max(dp[:N+2]))
+
